@@ -1,6 +1,8 @@
 # 🌤️ Condições de Tempo
 
-Este projeto é uma aplicação web desenvolvida para consultar as condições climáticas de diferentes localidades em tempo real. O objetivo principal é fornecer uma interface simples e intuitiva para verificar informações como temperatura, clima e outras métricas meteorológicas.
+<img width="1642" height="800" alt="image" src="https://github.com/user-attachments/assets/3c941c39-450a-4ce4-8637-3e18fc98f288" />
+
+Este projeto é uma aplicação web desenvolvida para consultar as condições climáticas de diferentes localidades em tempo real. O objetivo principal é fornecer uma interface simples e intuitiva para verificar informações de temperatura.
 
 ---
 
@@ -89,6 +91,6 @@ Fazer o Push (git push origin feature/NovaFeature)
 Abrir um Pull Request
 
 📝 Licença
-Este projeto está sob a licença MIT (se aplicável).
+Este projeto está sob a licença MIT.
 
 Feito com 💜 por Naisa Melo
