@@ -1,0 +1,16 @@
+
+https://api.openweathermap.org/data/2.5/weather?q=mucambo&appid=39db5d8fefe57def93e5a50bcef01e13&lang=pt_br&units=metric
+
+https://openweathermap.org/img/wn/04n@2x.png
+
+===========================
+INICIANDO O node
+npm init - y
+
+Instalando o Typescript no projeto
+npm install -D typescript
+
+Iniciar o Typescrip no projeto
+npx tsc --init
+
+npx tsc --watch
