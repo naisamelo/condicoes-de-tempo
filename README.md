@@ -1,6 +1,8 @@
 # 🌤️ Condições de Tempo
 
-Este projeto é uma aplicação web desenvolvida para consultar as condições climáticas de diferentes localidades em tempo real. O objetivo principal é fornecer uma interface simples e intuitiva para verificar informações como temperatura, clima e outras métricas meteorológicas.
+<img width="1642" height="800" alt="image" src="https://github.com/user-attachments/assets/3c941c39-450a-4ce4-8637-3e18fc98f288" />
+
+Este projeto é uma aplicação web desenvolvida para consultar as condições climáticas de diferentes localidades em tempo real. O objetivo principal é fornecer uma interface simples e intuitiva para verificar informações de temperatura.
 
 ---
 
@@ -51,26 +53,43 @@ Siga os passos abaixo para rodar o projeto localmente:
 
 Clone o repositório:
 
-Bash
-
+```bash
 git clone [https://github.com/naisamelo/condicoes-de-tempo.git](https://github.com/naisamelo/condicoes-de-tempo.git)
+```
 Acesse a pasta do projeto:
 
-Bash
-
+```bash
 cd condicoes-de-tempo
+```
 Instale as dependências:
 
-Bash
-
+```bash
 npm install
-Configuração da API: Verifique o arquivo url_api_wether.txt ou o código fonte para inserir sua chave de API (API Key) caso seja necessário para realizar as requisições.
+```
+
+## 🔑 Configuração da API
+
+Para que o projeto funcione corretamente e busque os dados climáticos, você precisará de sua própria chave de API (API Key). Siga os passos abaixo:
+
+1. **Crie uma conta:**
+   Acesse o site [OpenWeatherMap](https://openweathermap.org/) e crie uma conta gratuita.
+
+2. **Gere a chave:**
+   Após fazer login, vá até o seu perfil e clique na aba **"My API Keys"**. Lá você encontrará uma chave padrão gerada ou poderá criar uma nova.
+
+3. **Configure no projeto:**
+   - Copie a sua API Key.
+   - Abra o arquivo `ts/index.ts` (ou o arquivo onde a URL é montada).
+   - Localize a variável responsável pela chave (geralmente algo como `const apiKey = '...'`).
+   - Cole sua chave neste local.
+
+   > **Nota:** A ativação da chave pode levar de 10 minutos a algumas horas após a criação no site da OpenWeatherMap.
 
 Compilação (TypeScript): Caso faça alterações nos arquivos .ts, compile para JavaScript rodando:
 
-Bash
-
+```bash
 npx tsc
+```
 Ou utilize o script de build configurado no package.json.
 
 Rodando o projeto: Abra o arquivo index.html diretamente no seu navegador ou utilize uma extensão como o "Live Server" no VSCode.
@@ -89,6 +108,6 @@ Fazer o Push (git push origin feature/NovaFeature)
 Abrir um Pull Request
 
 📝 Licença
-Este projeto está sob a licença MIT (se aplicável).
+Este projeto está sob a licença MIT.
 
 Feito com 💜 por Naisa Melo
