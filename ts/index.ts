@@ -18,7 +18,7 @@ form?.addEventListener("submit", async (event) => {
 
   try {
     const respose = await fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${localizacao}&appid=39db5d8fefe57def93e5a50bcef01e13&lang=pt_br&units=metric`
+      `https://api.openweathermap.org/data/2.5/weather?q=${localizacao}&appid=SUACHAVE&lang=pt_br&units=metric`
     );
 
     const data = await respose.json();
